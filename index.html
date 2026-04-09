@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HTML Starter - Productivity Platform</title>
+  <title>BubbleForge - Expert Bubble Development Agency</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -24,14 +24,14 @@
   <header class="sticky top-0 z-40 border-b border-white/20 bg-white/70 backdrop-blur-xl dark:border-slate-800/60 dark:bg-slate-950/70">
     <nav>
       <div class="mx-auto flex w-full max-w-[1600px] items-center justify-between px-4 py-4 sm:px-6">
-        <a href="#hero" class="flex items-center gap-3 transition hover:opacity-90">
+        <a href="#hero" class="flex items-center gap-3 transition hover:opacity-90" aria-label="BubbleForge Home">
           <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-500 text-white shadow-xl">
-            <span class="text-sm font-bold">HS</span>
+            <span class="text-sm font-bold">BF</span>
           </div>
-          <span class="text-xl font-bold tracking-tight">HTML Starter</span>
+          <span class="text-xl font-bold tracking-tight">BubbleForge</span>
         </a>
         <div class="hidden items-center gap-6 md:flex">
-          <a href="#features" class="text-sm font-medium transition hover:text-indigo-600">Features</a>
+          <a href="#features" class="text-sm font-medium transition hover:text-indigo-600">Benefits</a>
           <a href="#how-it-works" class="text-sm font-medium transition hover:text-indigo-600">How it Works</a>
           <a href="#testimonials" class="text-sm font-medium transition hover:text-indigo-600">Testimonials</a>
           <a href="#faq" class="text-sm font-medium transition hover:text-indigo-600">FAQ</a>
@@ -42,7 +42,7 @@
             <svg id="icon-sun" class="h-5 w-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
             <svg id="icon-moon" class="h-5 w-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
           </button>
-          <a href="#final-cta" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-2.5 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]">Get Started</a>
+          <a href="#final-cta" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-2.5 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]">Get Your Free Quote</a>
         </div>
         <div class="flex items-center gap-1 md:hidden">
           <button type="button" id="theme-toggle-mobile" class="rounded-xl p-2 transition hover:bg-slate-200/50 dark:hover:bg-slate-800/60" aria-label="Toggle theme">
@@ -57,12 +57,12 @@
       </div>
       <div id="mobile-menu" class="hidden border-t border-white/20 bg-white/90 backdrop-blur-xl dark:border-slate-800/60 dark:bg-slate-950/90 md:hidden">
         <div class="mx-auto flex max-w-[1600px] flex-col gap-2 px-4 py-3 sm:px-6">
-          <a href="#features" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">Features</a>
+          <a href="#features" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">Benefits</a>
           <a href="#how-it-works" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">How it Works</a>
           <a href="#testimonials" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">Testimonials</a>
           <a href="#faq" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">FAQ</a>
           <a href="components-showcase.html" class="mobile-link rounded-lg px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800">Components</a>
-          <a href="#final-cta" class="mobile-link mt-1 inline-flex justify-center rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-4 py-2 text-sm font-semibold text-white">Get Started</a>
+          <a href="#final-cta" class="mobile-link mt-1 inline-flex justify-center rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-4 py-2 text-sm font-semibold text-white">Get Your Free Quote</a>
         </div>
       </div>
     </nav>
@@ -74,47 +74,56 @@
       <section id="hero" class="py-16 sm:py-28">
         <div class="grid items-center gap-16 lg:grid-cols-2">
           <div>
-            <span class="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-1.5 text-[11px] sm:text-sm font-semibold uppercase tracking-wider text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300">Bring structure to your workflows</span>
-            <h1 class="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl bg-gradient-to-r from-slate-900 via-indigo-700 to-blue-600 bg-clip-text text-transparent dark:from-white dark:via-indigo-400 dark:to-blue-400">Run your entire workflow from one clean dashboard.</h1>
-            <p class="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300">HTML Starter helps modern teams automate routine tasks, track projects in real time, and ship work faster without chaos.</p>
+            <span class="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-1.5 text-[11px] sm:text-sm font-semibold uppercase tracking-wider text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300">Expert No-Code Bubble Agency</span>
+            <h1 class="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl bg-gradient-to-r from-slate-900 via-indigo-700 to-blue-600 bg-clip-text text-transparent dark:from-white dark:via-indigo-400 dark:to-blue-400">
+              Build Custom Bubble Apps<br class="hidden sm:inline" />Faster with Expert Developers
+            </h1>
+            <p class="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300">
+              BubbleForge delivers custom scalable Bubble apps rapidly, empowering startups and businesses to innovate without code delays.
+            </p>
             <div class="mt-8 flex flex-wrap items-center gap-4">
-              <a href="#final-cta" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]">Get Started in Minutes</a>
-              <a href="#how-it-works" class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold transition hover:bg-white/60 dark:border-slate-700 dark:hover:bg-slate-800/40">View how it works <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M12.293 5.293a1 1 0 011.414 0L17 8.586a2 2 0 010 2.828l-3.293 3.293a1 1 0 01-1.414-1.414L13.586 11H5a1 1 0 110-2h8.586l-1.293-1.293a1 1 0 010-1.414z"/></svg></a>
+              <a href="#final-cta" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]" aria-label="Get Your Free Quote - Contact Form">
+                Get Your Free Quote
+              </a>
+              <a href="https://calendly.com/bubbleforge/consultation" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold transition hover:bg-white/60 dark:border-slate-700 dark:hover:bg-slate-800/40" aria-label="Schedule Free Consultation Call">
+                Schedule a Free Consultation
+                <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M12.293 5.293a1 1 0 011.414 0L17 8.586a2 2 0 010 2.828l-3.293 3.293a1 1 0 01-1.414-1.414L13.586 11H5a1 1 0 110-2h8.586l-1.293-1.293a1 1 0 010-1.414z"/></svg>
+              </a>
             </div>
-            <div class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-500 dark:text-slate-400">
-              <span>No credit card required</span>
-              <span class="hidden h-1 w-1 rounded-full bg-slate-300 sm:inline-block"></span>
-              <span>Set up in under 5 minutes</span>
+            <div class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-500 dark:text-slate-400" aria-live="polite">
+              <span>No upfront payments</span>
+              <span class="hidden h-1 w-1 rounded-full bg-slate-300 sm:inline-block" role="presentation"></span>
+              <span>Launch your app faster</span>
             </div>
           </div>
-          <div class="relative">
+          <div class="relative" aria-label="Screenshot preview of Bubble app dashboard">
             <div id="hero-slider" class="relative overflow-hidden rounded-3xl border border-white/30 bg-white/70 shadow-2xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/60">
               <div class="relative h-80 sm:h-96 lg:h-[28rem]">
                 <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-700" data-index="0">
-                  <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80" alt="Plan sprints" class="h-full w-full object-cover">
+                  <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80" alt="Bubble app sprint planning dashboard screenshot showing task breakdown" class="h-full w-full object-cover" />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Sprint planning</span>
+                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Sprint Planning</span>
                     <h3 class="mt-2 text-lg font-semibold">Plan sprints with total clarity</h3>
-                    <p class="text-sm text-white/80">See every task, owner, and deadline in one organized view.</p>
+                    <p class="text-sm text-white/80">Track every Bubble task and deadline in one centralized dashboard view.</p>
                   </div>
                 </div>
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="1">
-                  <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80" alt="Automate handoffs" class="h-full w-full object-cover">
+                  <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80" alt="Automated workflow handoff screenshot for Bubble app development" class="h-full w-full object-cover" />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Automation rules</span>
-                    <h3 class="mt-2 text-lg font-semibold">Automate repetitive handoffs</h3>
-                    <p class="text-sm text-white/80">Turn status updates and assignments into simple rules.</p>
+                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Automation Rules</span>
+                    <h3 class="mt-2 text-lg font-semibold">Automate task handoffs</h3>
+                    <p class="text-sm text-white/80">Create smart rules to move work forward without manual steps.</p>
                   </div>
                 </div>
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="2">
-                  <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" alt="Monitor progress" class="h-full w-full object-cover">
+                  <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" alt="Real-time reporting dashboard screenshot for Bubble app projects" class="h-full w-full object-cover" />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Live reporting</span>
-                    <h3 class="mt-2 text-lg font-semibold">Monitor progress in real time</h3>
-                    <p class="text-sm text-white/80">Track throughput, blockers, and ownership from one dashboard.</p>
+                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Live Reporting</span>
+                    <h3 class="mt-2 text-lg font-semibold">Monitor project progress</h3>
+                    <p class="text-sm text-white/80">See throughput, blockers, and ownership in real time.</p>
                   </div>
                 </div>
               </div>
@@ -129,222 +138,285 @@
       </section>
 
       <!-- Trusted by -->
-      <section id="trusted-by" class="border-y border-white/20 py-16 dark:border-slate-800/60">
+      <section id="trusted-by" class="border-y border-white/20 py-16 dark:border-slate-800/60" aria-label="Trusted by clients and Bubble certifications">
         <div class="mx-auto max-w-5xl text-center">
-          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500">Trusted by fast-moving teams</p>
-          <div class="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-4 text-sm font-medium text-slate-500 sm:gap-x-16 dark:text-slate-400">
-            <span class="tracking-tight">NovaCloud</span>
-            <span class="tracking-tight">PixelDesk</span>
-            <span class="tracking-tight">Northwave</span>
-            <span class="tracking-tight">LinearLabs</span>
-            <span class="tracking-tight">Brightline</span>
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500">Trusted by startups and businesses</p>
+          <div class="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-8 text-sm font-medium text-slate-500 sm:gap-x-16 dark:text-slate-400">
+            <img src="https://cdn.simpleicons.org/airbnb" alt="AirBnB logo" class="mx-auto h-8 w-auto" />
+            <img src="https://cdn.simpleicons.org/uber" alt="Uber logo" class="mx-auto h-8 w-auto" />
+            <img src="https://cdn.simpleicons.org/netflix" alt="Netflix logo" class="mx-auto h-8 w-auto" />
+            <img src="https://cdn.simpleicons.org/spotify" alt="Spotify logo" class="mx-auto h-8 w-auto" />
+            <img src="https://cdn.simpleicons.org/tencent" alt="Tencent logo" class="mx-auto h-8 w-auto" />
+          </div>
+          <div class="mt-10 max-w-3xl mx-auto text-left md:text-center">
+            <div class="space-y-6 text-sm text-slate-700 dark:text-slate-300">
+              <blockquote class="border-l-4 border-indigo-600 pl-4 italic">
+                <p>"BubbleForge accelerated our product launch by 40%, delivering a scalable app tailored perfectly to our needs."</p>
+                <footer class="mt-2 font-semibold text-indigo-600">Sophia R., Startup CEO</footer>
+              </blockquote>
+              <blockquote class="border-l-4 border-indigo-600 pl-4 italic">
+                <p>"Their expert Bubble developers provide not just speed but ongoing support and customization beyond expectations."</p>
+                <footer class="mt-2 font-semibold text-indigo-600">James K., Product Manager</footer>
+              </blockquote>
+              <div class="inline-flex items-center justify-center gap-4 mt-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bubble_logo.svg" alt="Bubble Certified Partner badge" class="h-10 w-auto" />
+                <img src="https://seeklogo.com/images/B/bubble-certified-logo-2F61B2BE77-seeklogo.com.png" alt="Bubble Expert Developer badge" class="h-10 w-auto" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Features -->
-      <section id="features" class="py-10 sm:py-24">
+      <!-- Features (Benefits) -->
+      <section id="features" class="py-10 sm:py-24" aria-label="Benefits and Features">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Everything you need to move work forward.</h2>
-          <p class="mt-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">Organize projects, automate handoffs, and keep your team aligned from one clean, minimal workspace.</p>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Why Choose BubbleForge?</h2>
+          <p class="mt-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">
+            Speed, customization, scalability, and support that drives your Bubble app from idea to launch and beyond.
+          </p>
         </div>
-        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 7V3m8 4V3M5 11h14M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5A2 2 0 003 7v12a2 2 0 002 2z"/></svg>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4" aria-live="polite">
+          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Speed benefit">
+            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70" aria-hidden="true">
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Unified task views</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">See every task, deadline, and owner in one place with flexible list, board, and timeline views.</p>
+            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Speed</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              Launch your Bubble app quickly with focused developers who understand your vision and the platform.
+            </p>
           </article>
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Customization benefit">
+            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70" aria-hidden="true">
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 4v16m8-8H4"/>
+              </svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Automation rules</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Create no-code automations to assign owners, move stages, and notify stakeholders automatically.</p>
+            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Customization</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              Tailor every feature and flow of your app to fit your exact needs, no compromises.
+            </p>
           </article>
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 10h8m-8 4h5M4 6h16a1 1 0 011 1v9a1 1 0 01-1 1h-4.586a1 1 0 00-.707.293L11 21l-3.707-3.707A1 1 0 006.586 17H4a1 1 0 01-1-1V7a1 1 0 011-1z"/></svg>
+          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Scalability benefit">
+            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70" aria-hidden="true">
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 10h4l3 10h4l3-10h4"/>
+              </svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Context-rich collaboration</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Centralize comments, files, and decisions so nothing gets lost in long email threads.</p>
+            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Scalability</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              Build apps that grow with your business — from MVP to enterprise-grade solutions.
+            </p>
           </article>
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 19h16M7 10l3 3 4-6 5 7"/></svg>
+          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Post-launch support benefit">
+            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70" aria-hidden="true">
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 20h9"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15 11v8m-6 1v-8"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 15l7-7 4 4 5-5"/>
+              </svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Real-time reporting</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Track throughput, cycle time, and workload in real time to unblock teams quickly.</p>
-          </article>
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3l7 4v5c0 4.418-3.134 8.418-7 9-3.866-.582-7-4.582-7-9V7l7-4z"/></svg>
-            </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Enterprise-grade reliability</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Built on secure, scalable infrastructure with audit-friendly activity trails.</p>
-          </article>
-          <article class="group flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-100 dark:bg-indigo-900/50 dark:text-indigo-400 dark:group-hover:bg-indigo-900/70">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 7h8M7 17h4m2 0h4M7 7l-3 3m13-3l3 3M7 17l-3-3m13 3l3-3"/></svg>
-            </div>
-            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Seamless integrations</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Connect your tools so updates flow automatically between chat, email, and calendar.</p>
+            <h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Post-Launch Support</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              Continuous app enhancements and reliable maintenance to keep your system running smoothly.
+            </p>
           </article>
         </div>
       </section>
 
       <!-- How it works -->
-      <section id="how-it-works" class="border-t border-white/20 py-10 sm:py-24 dark:border-slate-800/60">
+      <section id="how-it-works" class="border-t border-white/20 py-10 sm:py-24 dark:border-slate-800/60" aria-label="How BubbleForge works">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">How HTML Starter fits your day.</h2>
-          <p class="mt-3 text-sm text-slate-600 sm:text-base">From idea to shipped work in three simple steps.</p>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">How BubbleForge Fits Your Project</h2>
+          <p class="mt-3 text-sm text-slate-600 sm:text-base">From consultation to launched app in three simple steps.</p>
         </div>
         <div class="mt-10 grid gap-8 md:grid-cols-3">
-          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Step 1 Capture and organize requirements">
             <div class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-50 text-xs font-semibold text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400">1</div>
-            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Capture and organize work</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Bring tasks in from email, chat, or spreadsheets and group them into clean projects, sprints, or lanes.</p>
+            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Consult & Capture</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              We gather your requirements and align on goals to build a custom Bubble app that fits your vision.
+            </p>
           </div>
-          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Step 2 Build and iterate rapidly">
             <div class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-50 text-xs font-semibold text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400">2</div>
-            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Automate handoffs</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Define smart rules so work automatically moves to the right person with the right context at the right time.</p>
+            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Develop & Iterate</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              Our experts rapidly build and refine your app with your feedback to ensure it meets your needs.
+            </p>
           </div>
-          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <div class="flex flex-col items-start gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Step 3 Launch and support">
             <div class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-50 text-xs font-semibold text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400">3</div>
-            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Track, learn, and continuously improve</h3>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Dashboards show bottlenecks, trends, and ownership so you can keep improving your workflows.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Product preview -->
-      <section id="product-preview" class="py-8 sm:py-24">
-        <div class="grid items-center gap-12 lg:grid-cols-2">
-          <div>
-            <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">A single source of truth for every workflow.</h2>
-            <p class="mt-3 text-sm text-slate-600 dark:text-slate-400 sm:text-base">Replace scattered spreadsheets, endless status meetings, and buried email threads with one organized view of work. HTML Starter pulls everything together so your team always knows what matters now.</p>
-            <ul class="mt-5 space-y-3 text-sm text-slate-700 dark:text-slate-300">
-              <li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span>Customizable dashboards by team, project, or client.</span></li>
-              <li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span>Instant filters for owners, status, and deadlines.</span></li>
-              <li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span>Lightweight enough for fast teams, structured enough for scale.</span></li>
-            </ul>
-          </div>
-          <div class="relative">
-            <div class="overflow-hidden rounded-3xl border border-white/30 bg-white/70 shadow-2xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/60">
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Dashboard mockup" class="h-full w-full object-cover">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Benefits -->
-      <section id="benefits" class="border-y border-white/20 py-8 sm:py-24 dark:border-slate-800/60">
-        <div class="grid gap-12 md:grid-cols-2">
-          <div>
-            <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Ship more, with less manual work.</h2>
-            <p class="mt-3 text-sm text-slate-600 sm:text-base">HTML Starter gives your team leverage with automated workflows, fewer status pings, and clear ownership, so you can get more done in less time.</p>
-          </div>
-          <div>
-            <ul class="space-y-3 text-sm text-slate-700 dark:text-slate-300">
-              <li class="flex cursor-default items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span><strong>Productivity</strong> – Reduce time spent on coordination and keep teams in flow for longer blocks.</span></li>
-              <li class="flex cursor-default items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span><strong>Automation</strong> – Turn repetitive handoffs into rules so work moves forward while your team focuses on deep work.</span></li>
-              <li class="flex cursor-default items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span><strong>Growth</strong> – Scale your processes without adding unnecessary headcount or complexity.</span></li>
-              <li class="flex cursor-default items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"/></svg></span><span><strong>Clarity</strong> – Everyone sees priorities, owners, and timelines at a glance.</span></li>
-            </ul>
+            <h3 class="text-sm font-semibold text-slate-900 dark:text-slate-50">Launch & Support</h3>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              We ensure a smooth launch and offer ongoing support to scale your Bubble app confidently.
+            </p>
           </div>
         </div>
       </section>
 
       <!-- Testimonials -->
-      <section id="testimonials" class="py-8 sm:py-24">
+      <section id="testimonials" class="py-8 sm:py-24" aria-label="Client Testimonials">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Teams that switch to HTML Starter move 30% faster.</h2>
-          <p class="mt-3 text-sm text-slate-600 sm:text-base">Real stories from teams that replaced scattered tools with one calm workspace.</p>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">What Our Clients Say</h2>
+          <p class="mt-3 text-sm text-slate-600 sm:text-base">Real stories from companies accelerated by BubbleForge’s expert developers.</p>
         </div>
         <div class="mt-10 grid gap-6 md:grid-cols-3">
-          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Testimonial from Ananya B.">
             <div class="flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="Ananya B." class="h-10 w-10 rounded-full object-cover">
-              <div class="text-left"><div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Ananya B.</div><div class="text-xs text-slate-500 dark:text-slate-400">Head of Operations, NovaCloud</div></div>
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="Photo of Ananya B., Head of Operations at NovaCloud" class="h-10 w-10 rounded-full object-cover">
+              <div class="text-left">
+                <div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Ananya B.</div>
+                <div class="text-xs text-slate-500 dark:text-slate-400">Head of Operations, NovaCloud</div>
+              </div>
             </div>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">"HTML Starter transformed how our team understands work in progress. We can now see the status of every project in minutes instead of hours."</p>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              “BubbleForge helped us launch our Bubble app twice as fast without sacrificing quality. Their expertise is unmatched.”
+            </p>
           </article>
-          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Testimonial from Rahul Kumar">
             <div class="flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80" alt="Rahul Kumar" class="h-10 w-10 rounded-full object-cover">
-              <div class="text-left"><div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Rahul Kumar</div><div class="text-xs text-slate-500 dark:text-slate-400">Product Lead, PixelDesk</div></div>
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80" alt="Photo of Rahul Kumar, Product Lead at PixelDesk" class="h-10 w-10 rounded-full object-cover">
+              <div class="text-left">
+                <div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Rahul Kumar</div>
+                <div class="text-xs text-slate-500 dark:text-slate-400">Product Lead, PixelDesk</div>
+              </div>
             </div>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">"We consolidated three tools into HTML Starter. Our handoffs are cleaner, and our shipping velocity has gone up significantly."</p>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              “With BubbleForge, our Bubble app workflow is streamlined and scalable. Their knowledge saved us months of development time.”
+            </p>
           </article>
-          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50">
+          <article class="flex h-full flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm transition hover:border-indigo-200/60 hover:shadow-xl dark:border-slate-700/50 dark:bg-slate-900/60 dark:hover:border-indigo-800/50" role="region" aria-label="Testimonial from Lisa S.">
             <div class="flex items-center gap-3">
-              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80" alt="Lisa S." class="h-10 w-10 rounded-full object-cover">
-              <div class="text-left"><div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Lisa S.</div><div class="text-xs text-slate-500 dark:text-slate-400">Founder, Brightline Studio</div></div>
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&q=80" alt="Photo of Lisa S., Founder at Brightline Studio" class="h-10 w-10 rounded-full object-cover">
+              <div class="text-left">
+                <div class="text-sm font-semibold text-slate-900 dark:text-slate-50">Lisa S.</div>
+                <div class="text-xs text-slate-500 dark:text-slate-400">Founder, Brightline Studio</div>
+              </div>
             </div>
-            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">"HTML Starter gave our small team enterprise-level workflows without the complexity. It feels calm and focused to work in every day."</p>
+            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              “Their Bubble expertise took our app from concept to launch with an unmatched level of ease and support.”
+            </p>
           </article>
         </div>
       </section>
 
       <!-- FAQ -->
-      <section id="faq" class="border-y border-white/20 py-8 sm:py-20 dark:border-slate-800/60">
+      <section id="faq" class="border-y border-white/20 py-8 sm:py-20 dark:border-slate-800/60" aria-label="Frequently Asked Questions">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Frequently asked questions</h2>
-          <p class="mt-3 text-sm text-slate-600 sm:text-base">Quick answers to common questions, without a sales call.</p>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">Frequently Asked Questions</h2>
+          <p class="mt-3 text-sm text-slate-600 sm:text-base">Clear answers to your most common questions.</p>
         </div>
         <div class="mx-auto mt-10 max-w-3xl space-y-3">
           <div class="faq-item overflow-hidden rounded-2xl border border-white/30 bg-white/70 dark:border-slate-700/50 dark:bg-slate-900/60">
-            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4">What kind of teams use HTML Starter?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span></button>
-            <div class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5">HTML Starter works best for product, operations, marketing, customer success, and project teams that want clearer workflows and fewer status meetings.</div>
+            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4" aria-expanded="false" aria-controls="faq-1" aria-describedby="faq-1-desc">
+              How long does a typical Bubble project take?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span>
+            </button>
+            <div id="faq-1" class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5" role="region" aria-labelledby="faq-1">
+              <p id="faq-1-desc">Most projects are completed between 4 to 8 weeks depending on complexity and feature scope. We prioritize fast delivery and quality.</p>
+            </div>
           </div>
           <div class="faq-item overflow-hidden rounded-2xl border border-white/30 bg-white/70 dark:border-slate-700/50 dark:bg-slate-900/60">
-            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4">Do we need a dedicated admin to maintain it?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span></button>
-            <div class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5">No. HTML Starter is designed so team leads can set up workflows quickly without needing a full-time admin or consultant.</div>
+            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4" aria-expanded="false" aria-controls="faq-2" aria-describedby="faq-2-desc">
+              How transparent is your pricing?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span>
+            </button>
+            <div id="faq-2" class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5" role="region" aria-labelledby="faq-2">
+              <p id="faq-2-desc">We provide clear, fixed project estimates upfront with no hidden fees. Flexible payment options available upon request.</p>
+            </div>
           </div>
           <div class="faq-item overflow-hidden rounded-2xl border border-white/30 bg-white/70 dark:border-slate-700/50 dark:bg-slate-900/60">
-            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4">How long does implementation usually take?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span></button>
-            <div class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5">Most teams get their first workflows live within a day, and fully migrate over within one to two weeks.</div>
+            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4" aria-expanded="false" aria-controls="faq-3" aria-describedby="faq-3-desc">
+              What kind of post-launch support do you offer?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span>
+            </button>
+            <div id="faq-3" class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5" role="region" aria-labelledby="faq-3">
+              <p id="faq-3-desc">We provide ongoing maintenance, feature updates, and optimization services tailored to your evolving business needs.</p>
+            </div>
           </div>
           <div class="faq-item overflow-hidden rounded-2xl border border-white/30 bg-white/70 dark:border-slate-700/50 dark:bg-slate-900/60">
-            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4">Can HTML Starter integrate with our existing tools?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span></button>
-            <div class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5">Yes. HTML Starter connects with chat, calendar, and document tools so you can keep your existing stack while centralizing work.</div>
+            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4" aria-expanded="false" aria-controls="faq-4" aria-describedby="faq-4-desc">
+              Can you integrate my app with existing tools?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span>
+            </button>
+            <div id="faq-4" class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5" role="region" aria-labelledby="faq-4">
+              <p id="faq-4-desc">Yes, whether it’s APIs, payment systems, or analytics. We build integrations to extend your app’s functionality seamlessly.</p>
+            </div>
           </div>
           <div class="faq-item overflow-hidden rounded-2xl border border-white/30 bg-white/70 dark:border-slate-700/50 dark:bg-slate-900/60">
-            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4">Is my data secure?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span></button>
-            <div class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5">Your data is encrypted in transit and at rest. Role-based access controls ensure the right people see the right information.</div>
+            <button type="button" class="faq-btn flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-900 dark:text-slate-50 sm:px-5 sm:py-4" aria-expanded="false" aria-controls="faq-5" aria-describedby="faq-5-desc">
+              How secure is my app and data?<span class="faq-icon ml-4 text-slate-400 transition-transform"><svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"/></svg></span>
+            </button>
+            <div id="faq-5" class="faq-content hidden border-t border-slate-100 px-4 pb-4 pt-2 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400 sm:px-5" role="region" aria-labelledby="faq-5">
+              <p id="faq-5-desc">We use industry best practices including Bubble’s security features, encryption, and role-based access to protect your app and data.</p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Final CTA -->
-      <section id="final-cta" class="py-8 sm:py-24">
+      <section id="final-cta" class="py-8 sm:py-24" aria-label="Contact Form Call-to-Action">
         <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-8 py-14 text-center text-white shadow-2xl sm:px-12">
           <div class="absolute -left-12 -top-12 h-32 w-32 rounded-full bg-white/10"></div>
           <div class="absolute -bottom-16 -right-16 h-40 w-40 rounded-full bg-white/10"></div>
           <div class="relative mx-auto max-w-2xl">
-            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Ready to streamline your workflows?</h2>
-            <p class="mt-4 text-base text-blue-100/90 sm:text-lg">Bring your projects, people, and processes into one calm, focused workspace with HTML Starter.</p>
+            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Ready to launch your Bubble app?</h2>
+            <p class="mt-4 text-base text-blue-100/90 sm:text-lg">Start your project with BubbleForge — simple, fast, and expert support every step of the way.</p>
             <div class="mt-6 flex justify-center">
-              <a href="#hero" class="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-semibold text-blue-700 shadow-lg transition hover:scale-105 hover:shadow-xl">Get Started with HTML Starter</a>
+              <a href="#contact-form" class="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-semibold text-blue-700 shadow-lg transition hover:scale-105 hover:shadow-xl" aria-label="Scroll to Contact Form">
+                Start Your Bubble App Today
+              </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section id="contact-form" class="py-8 sm:py-24">
+        <div class="mx-auto max-w-3xl space-y-6 rounded-xl border border-white/30 bg-white/70 p-8 shadow-xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/60">
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-50">Contact BubbleForge</h2>
+          <p class="text-sm text-slate-700 dark:text-slate-300">
+            Ready to discuss your project? Fill out the form below and we’ll get back to you promptly.
+          </p>
+          <form action="mailto:hi@chirag.co" method="POST" enctype="text/plain" class="space-y-4" aria-label="Project Inquiry Contact Form">
+            <div>
+              <label for="name" class="block text-sm font-medium text-slate-700 dark:text-slate-300">Name <span class="text-red-500">*</span></label>
+              <input type="text" id="name" name="Name" required placeholder="Your full name" class="mt-1 w-full rounded-lg border border-slate-300 px-4 py-2 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none focus:ring-1 focus:ring-indigo-600 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-slate-700 dark:text-slate-300">Email <span class="text-red-500">*</span></label>
+              <input type="email" id="email" name="Email" required placeholder="you@example.com" class="mt-1 w-full rounded-lg border border-slate-300 px-4 py-2 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none focus:ring-1 focus:ring-indigo-600 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" />
+            </div>
+            <div>
+              <label for="project" class="block text-sm font-medium text-slate-700 dark:text-slate-300">Project Details</label>
+              <textarea id="project" name="Project Details" rows="4" placeholder="Briefly describe your Bubble app idea or requirements" class="mt-1 w-full rounded-lg border border-slate-300 px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-600 focus:outline-none focus:ring-1 focus:ring-indigo-600 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"></textarea>
+            </div>
+            <button type="submit" class="inline-flex w-full justify-center rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-3 text-center text-sm font-semibold text-white shadow-lg transition hover:scale-[1.05] focus:outline-none focus:ring-2 focus:ring-indigo-500">
+              Submit Inquiry
+            </button>
+          </form>
         </div>
       </section>
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-white/20 bg-gradient-to-t from-slate-100 to-white dark:from-slate-950 dark:to-slate-900 dark:border-slate-800/60">
+  <footer class="border-t border-white/20 bg-gradient-to-t from-slate-100 to-white dark:from-slate-950 dark:to-slate-900 dark:border-slate-800/60" role="contentinfo">
     <div class="mx-auto flex max-w-[1600px] flex-col gap-6 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6">
       <div class="flex flex-col gap-2">
-        <div class="flex items-center gap-2"><span class="text-base font-semibold text-slate-900 dark:text-slate-50">HTML Starter</span><span class="text-xs text-slate-400 dark:text-slate-500">Productivity Platform</span></div>
-        <p class="max-w-md text-xs text-slate-500 dark:text-slate-400">HTML Starter helps modern teams build calm, automated workflows that everyone actually enjoys using.</p>
-        <p class="text-xs text-slate-400 dark:text-slate-500">© <span id="year"></span> HTML Starter Inc. All rights reserved.</p>
+        <div class="flex items-center gap-2" aria-label="Brand name and description">
+          <span class="text-base font-semibold text-slate-900 dark:text-slate-50">BubbleForge</span>
+          <span class="text-xs text-slate-400 dark:text-slate-500">Expert Bubble Development Agency</span>
+        </div>
+        <p class="max-w-md text-xs text-slate-500 dark:text-slate-400">We build fast, scalable Bubble apps with expert developers who deliver polished results.</p>
+        <p class="text-xs text-slate-400 dark:text-slate-500">© <span id="year"></span> BubbleForge Inc. All rights reserved.</p>
       </div>
-      <div class="flex flex-col gap-4 sm:items-end">
-        <div class="flex gap-5 text-xs text-slate-500"><a href="components-showcase.html" class="hover:text-slate-900 dark:hover:text-slate-50">Components</a><a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Company</a><a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Blog</a><a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Docs</a><a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Support</a></div>
+      <div class="flex flex-col gap-4 sm:items-end" aria-label="Footer navigation">
+        <div class="flex gap-5 text-xs text-slate-500">
+          <a href="components-showcase.html" class="hover:text-slate-900 dark:hover:text-slate-50">Components</a>
+          <a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Company</a>
+          <a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Blog</a>
+          <a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Docs</a>
+          <a href="#" class="hover:text-slate-900 dark:hover:text-slate-50">Support</a>
+        </div>
       </div>
     </div>
   </footer>
@@ -442,6 +514,9 @@
         if (!isOpen) {
           content.classList.remove('hidden');
           if (icon) icon.classList.add('rotate-180');
+          btn.setAttribute('aria-expanded', 'true');
+        } else {
+          btn.setAttribute('aria-expanded', 'false');
         }
       });
     });
